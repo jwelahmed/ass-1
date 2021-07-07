@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.healthy-food{
+    display: flex;
+}
+.diet{
+    width: 60%;
+    margin-left: 10%;
+}
+.diet h1{
+    font-size: 60px;
+    margin:0;
+    /* padding: 0; */
+    color: #76747a;
+}
+span{
+    color: orange;
+}
+.diet p{
+    font-size: 20px;
+    color: #76747a;
+}
+.diet a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 25px; 
+}
+
+.diet-img{
+    width:50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.diet-img img{
+    width: 90%;   
+}
+.about-me{
+    display: flex;
+    background: url(images/bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    
+}
+.my-img{
+    width: 40%;
+    margin-left: 10%;
+}
+.my-img img{
+    width: 90%;
+}
+.about-text{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+.about-text h1{
+    font-size: 40px;
+}
+.about-text p{
+    margin-bottom: 10%;
+}
+.about-text a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 25px;   
+}
+.recipies-text{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.recipies-text h1{
+    font-size: 40px;
+    color: #76747a;
+}
+.recipies-text p{
+    width: 40%;
+    margin: 0 auto;
+    color: #76747a;
+}
+.recipie-title{
+    display: flex;
+}
+.recipie-1{
+    width: 30%;
+    margin-left: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;  
+    padding: 10px;
+}
+.recipie-2{
+    width: 30%;
+    margin-left: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.recipie-3{
+    width: 30%;
+    margin-left: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 6%;
+    padding: 10px;
+}
+.recipie-3:last-child{
+    margin-right: 5%;
+}
+.recipie-1 img{
+    width: 90%;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-top: 4%;
+    margin: 0 auto;
+}
+.recipie-2 img{
+    width: 90%;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-top: 4%;
+    margin: 0 auto;
+}
+.recipie-3 img{
+    width: 90%;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-top: 4%;
+    margin: 0 auto;
+}
+.recipie-1 h1{
+    margin-bottom: 0;
+}
+.recipie-1 p{
+
+}
+.time{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.time-text{
+    display: flex;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+.time1{
+    width: 30%;
+    text-align: center;
+}
+.time2{
+    width: 30%;
+    text-align: center;
+}
+.time3{
+    width: 30%;
+    text-align: center;
+}
+.time1 h1{
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.time2 h1{
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.time3 h1{
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.time1 p{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.time2 p{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.time3 p{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.footer-part{
+    text-align: center;
+    padding: 20px ;
+    background-color: #0a090f;
+    margin-top: 10%;
+}
+.footer-part h2{
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #63616b;
+}
+.footer-part p{
+    color: white;
+    margin-top: 15px; 
+    margin-bottom: 40px;
+}
